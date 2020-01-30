@@ -1,0 +1,158 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2020-01-28T16:03:23.923Z",
+        "line": 16,
+        "name": "​Modification de l\u0027adresse d\u0027un abonné résidant en France sans ou avec date d\u0027effet",
+        "description": "",
+        "id": "​modifier-l-adresse-d-un-abonné----​;​modification-de-l-adresse-d-un-abonné-résidant-en-france-sans-ou-avec-date-d-effet;;2",
+        "type": "scenario",
+        "keyword": "Plan du scénario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "​un abonné avec une adresse principale ​\u003cactive\u003e ​en ​\u003cpays\u003e",
+            "match": {},
+            "keyword": "Etant donné "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "​le conseiller connecté à ​\u003ccanal\u003e ​modifie l\u0027adresse de l\u0027abonné ​\u003ccondition\u003e",
+            "match": {},
+            "keyword": "Lorsque "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "​l\u0027adresse de l\u0027abonné modifiée est enregistrée sur l\u0027ensemble des contrats de l\u0027abonné",
+            "match": {},
+            "keyword": "Alors "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "​un mouvement de modification d\u0027adresse est créé      ​",
+            "match": {},
+            "keyword": "Et "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@adresse"
+          },
+          {
+            "name": "@modification"
+          },
+          {
+            "name": "@TestsRecevabilité"
+          },
+          {
+            "name": "@scenarioTest"
+          },
+          {
+            "name": "​"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-01-28T16:03:23.951Z",
+        "line": 17,
+        "name": "​Modification de l\u0027adresse d\u0027un abonné résidant en France sans ou avec date d\u0027effet",
+        "description": "",
+        "id": "​modifier-l-adresse-d-un-abonné----​;​modification-de-l-adresse-d-un-abonné-résidant-en-france-sans-ou-avec-date-d-effet;;3",
+        "type": "scenario",
+        "keyword": "Plan du scénario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "​un abonné avec une adresse principale ​\u003cactive\u003e ​en ​\u003cpays\u003e",
+            "match": {},
+            "keyword": "Etant donné "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "​le conseiller connecté à ​\u003ccanal\u003e ​modifie l\u0027adresse de l\u0027abonné ​\u003ccondition\u003e",
+            "match": {},
+            "keyword": "Lorsque "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "​l\u0027adresse de l\u0027abonné modifiée est enregistrée sur l\u0027ensemble des contrats de l\u0027abonné",
+            "match": {},
+            "keyword": "Alors "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "​un mouvement de modification d\u0027adresse est créé      ​",
+            "match": {},
+            "keyword": "Et "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@adresse"
+          },
+          {
+            "name": "@modification"
+          },
+          {
+            "name": "@TestsRecevabilité"
+          },
+          {
+            "name": "@scenarioTest"
+          },
+          {
+            "name": "​"
+          }
+        ]
+      }
+    ],
+    "name": "​Modifier l\u0027adresse d\u0027un abonné    ​",
+    "description": "",
+    "id": "​modifier-l-adresse-d-un-abonné----​",
+    "keyword": "Fonctionnalité",
+    "uri": "file:src/test/resources/features/adresse.feature",
+    "tags": [
+      {
+        "name": "@adresse",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      },
+      {
+        "name": "@modification",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
